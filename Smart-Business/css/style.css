@@ -1,0 +1,469 @@
+@charset "UTF-8";
+/* CSS Document */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	
+	vertical-align: baseline;
+}
+a, a:hover, a:focus, a:active
+{
+	text-decoration: none;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* reset css end */
+body
+{
+	padding: 0px;
+	margin: 0px;
+	font-family: "Poppins", sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: normal;
+	color: #272727;
+	box-sizing: border-box;
+}
+
+/* navbar css */
+
+
+.navbar-brand
+{
+	display: flex;
+}
+.navbar-light .navbar-nav .nav-link
+{
+	color: #272727;
+}
+.navbar-light .navbar-nav .active>.nav-link
+{
+	color: #5437e9;
+	font-weight: bold;
+}
+.navbar a
+	{
+		font-size: 14px;
+	}
+.navbar-expand-lg .navbar-nav .nav-link
+	{
+	padding-right: 1rem;
+    padding-left: 1rem;
+	}
+@media screen and (max-width: 992px)
+{
+	.navbar-expand-lg .navbar-nav .nav-link
+	{
+	padding-right: 0.5rem;
+    padding-left: 0.5rem;
+	}
+}
+
+#header {
+    
+    transition: all 0.5s;
+    background: #fff;
+}
+.navbar-collapse
+{
+	z-index: 1
+}
+/* navbar css end */
+
+/* banner css */
+
+#banner
+{
+	background-image: url("../images/banner-bg2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+	
+}
+
+.cta
+{
+	background-color: #5437e9;
+	border-color: #5437e9;
+	text-transform: uppercase;
+	color: #fff;
+	border-radius: 5px;
+	font-size: 14px;
+	line-height: 24px;
+	padding: 5px 20px;
+	outline: none;
+}
+#banner
+{
+	padding: 80px 15px;
+	color: #fff;
+}
+p, h6
+{
+	font-size: 14px; 
+	line-height: 24px;	
+}
+
+h5
+{
+	font-size: 18px; 
+	line-height: 26px;	
+}
+h4
+{
+	font-size: 25px; 
+	line-height: 30px;
+	
+	text-transform: uppercase;
+	font-weight: bold;
+}
+h3
+{
+	font-size: 35px; 
+	line-height: 40px;
+	
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+h2
+{
+	font-size: 45px; 
+	line-height: 50px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+h1
+{
+	font-size: 70px; 
+	line-height: 78px;
+	color: #5437e9;
+	text-transform: uppercase;
+	font-weight: bolder;
+	padding-bottom: 10px;
+}
+#banner h2
+{
+	color: #272727;
+}
+/* banner css end */
+
+
+/* services css */
+
+#services
+{
+	background-color: #f9f9f9;
+	padding: 80px 15px;
+}
+.box-content span
+{
+	color: #5437e9;
+}
+.border
+{
+	border: 1px solid #f5c135!important;
+	width: 50%;
+}
+.box-content h2
+{
+	
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.box
+{
+	background-color: white;
+	padding: 30px;
+	box-shadow: 0px 2px 35px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+	margin-bottom: 20px;
+}
+.box:hover
+{
+	background-color: #5437e9;
+	color: #fff;
+}
+.fa-bullhorn, .fa-lightbulb-o, .fa-university
+{
+	font-size: 50px !important;
+	color:#f5c135; 
+}
+
+.box p
+{
+	color: #c3c1c1;
+	font-size: 20px;
+	line-height: 30px;	
+}
+.box h6
+{
+	color: #c3c1c1;	
+}
+
+.box h5
+{
+	letter-spacing: 2px;
+	padding-bottom: 5px;
+}
+/* services css end */
+
+/* About css */
+#About
+{
+	background-color: #fff;
+	padding: 80px 15px;
+}
+.about-content
+{
+	padding: 0px 10px 20px;
+}
+
+.about-content h5 span
+{
+	color: #f5c135;
+}
+.about-content h3 span
+{
+	color: #5437e9;
+}
+.icon-box h5
+{
+	
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #5437e9;
+}
+
+.icon-box h5 a, a:hover
+{
+	color: #5437e9;
+}
+.icon
+{
+	margin-right: 20px;
+	float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 64px;
+    height: 64px;
+    border: 2px solid #f5c135;
+    border-radius: 50px;
+    transition: 0.5s;
+    background: #fff;
+}
+.icon i
+{
+	color: #f5c135;
+    font-size: 32px;
+}
+.icon:hover
+{
+	background-color: #5437e9;
+	 border: 2px solid #5437e9;
+	color: #fff;
+}
+.icon i:hover
+{
+	color: #fff;
+}
+/* About css end */
+
+/* strategy css */
+#strategy
+{
+	background-color: #5437e9;
+	padding: 80px 15px;
+	color: #fff;
+}
+.formdiv
+{
+	background-color: #fff;
+	border-radius: 10px;
+	padding: 30px;
+	color: #495057;
+	box-shadow: 0px 2px 35px rgba(0, 0, 0, 0.06);
+}
+.form-check-label {
+   
+    font-size: 14px;
+    color: #495057;
+}
+.form-control, select
+{
+background-color: #e5e5e5;
+	font-size: 14px;
+	    color: #272727;
+}
+form h5
+{
+	 font-size: 16px;
+    line-height: 24px;
+	font-weight: bold;
+	color: #272727;
+}
+/* strategy css end */
+
+
+/* Articles css */
+
+#Articles
+{
+	background-color: #ffffff;
+	padding: 80px 15px;
+}
+#Articles span
+{
+	color: #f5c135;
+}
+
+/* Articles css end */
+
+
+/* footer css */
+#footer
+{
+	padding: 80px 15px 20px;
+	background-color: #272727;
+	color: #fff;
+	font-size: 12px;
+	line-height: 20px;
+}
+
+#footer li
+{
+	margin-bottom: 10px;
+}
+#footer li a
+{
+	color: #fff;
+	text-transform: uppercase;	
+}
+#footer li a:active, strong
+{
+	color: #f5c135;
+	
+}
+#footer li i
+{
+	color: #f5c135;
+	padding-right: 10px;
+}
+
+/* footer css end */
+
+/* Media query */
+@media screen and (max-width: 768px)
+{
+	#banner, #footer, #About, #services, #strategy
+	{
+		padding: 40px 10px;
+	}
+	p, h6
+	{
+		font-size: 13px;
+		line-height: 18px;
+	}
+	h5 {
+    font-size: 15px;
+    line-height: 20px;
+    
+	}
+	h4 {
+    font-size: 20px;
+    line-height: 30px;
+    
+	}
+	h3
+	{
+	font-size: 23px;
+    line-height: 30px;
+	}
+	h2 
+	{
+    font-size: 30px;
+    line-height: 40px;
+	}
+	h1 
+	{
+    font-size: 40px;
+    line-height: 50px;
+	}
+	.mobile-hide
+	{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 420px)
+{
+	#banner, #footer, #About, #services, #strategy
+	{
+		padding: 40px 10px;
+	}
+	p, h6
+	{
+		font-size: 12px;
+		line-height: 18px;
+	}
+	h5 {
+    font-size: 14px;
+    line-height: 20px;
+    
+	}
+	h4 {
+    font-size: 25px;
+    line-height: 30px;
+    
+	}
+	h3
+	{
+		font-size: 20px;
+    line-height: 30px;
+	}
+	h2 
+	{
+    font-size: 35px;
+    line-height: 45px;
+	}
+	h1 
+	{
+    font-size: 45px;
+    line-height: 50px;
+	}
+	
+}
+/* Media query end */
